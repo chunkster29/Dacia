@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmtproducts.dacia.HelpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="middle|beginning|end">
+        <com.google.android.gms.ads.AdView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="@string/ad_size"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            android:id="@+id/adView"
+            android:layout_gravity="center">
+        </com.google.android.gms.ads.AdView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/adView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/philips_1"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You would enter X000"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textIsSelectable="false" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/philips_2"
+            android:nestedScrollingEnabled="false"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You would enter O660"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/philips_3"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You would enter S556"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

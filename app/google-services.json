@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "897449282623",
+    "firebase_url": "https://admob-app-id-8756327781.firebaseio.com",
+    "project_id": "admob-app-id-8756327781",
+    "storage_bucket": "admob-app-id-8756327781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897449282623:android:ae254cfd5eefdf95",
+        "android_client_info": {
+          "package_name": "com.jmtproducts.dacia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897449282623-vgluuqbjk32b7av40cv7b1etputhi46p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jmtproducts.dacia",
+            "certificate_hash": "3e50253f0c55240cd178536a7e5afb0aac95e573"
+          }
+        },
+        {
+          "client_id": "897449282623-f24gleefjsj2ke657kipcepno2engbpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqKOo9ZYe0jYvG1KNNSsPRnXnEzbpJFrA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

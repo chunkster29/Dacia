@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dacia Radio Calculator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1204889035395038/7178328354</string>
+    <string name="ad_size">BANNER</string>
+    <!--Replace with your own ad unit id. -->
+    <string name="ad_unit_id">ca-app-pub-1204889035395038/6773648187</string>
+    <string name="ad_unit_id_1">ca-app-pub-1204889035395038/3123533270</string>
+    <string name="_1_radio_removal">1) - Radio Removal</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_entering">EnteringActivity</string>
+    <string name="great_news_your_code_is">Great news your code is:-</string>
+    <string name="adUnitId1">ca-app-pub-1204889035395038/2833741628</string>
+    <string name="mob_ads_id">ca-app-pub-1204889035395038~9940260983</string>
+</resources>
