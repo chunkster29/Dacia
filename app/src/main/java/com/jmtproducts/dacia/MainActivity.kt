@@ -17,8 +17,8 @@ import android.widget.EditText
 import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.app_bar_main.*
+//import kotlinx.android.synthetic.main.activity_main.*
+//import kotlinx.android.synthetic.main.app_bar_main.*
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 
